@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'lato', sans-serif;
   background-color: #a2d5c6;
 }
 
@@ -64,6 +64,10 @@ form {
   margin-bottom: 20px;
 }
 
+.TodoWrapper>h1 {
+  color: #E1D9D1;
+}
+
 
 .Todo {
   height: 60px;
@@ -95,4 +99,51 @@ form {
 
 .icons {
   cursor: pointer;
+}
+
+
+@media (max-width: 477px) {
+  .App {
+    width: 350px;
+    min-height: 20vh;
+    margin-top: 2rem;
+    padding-top: 30px;
+  }
+
+  .TodoWrapper>h1 {
+    font-size: 1.8rem;
+  }
+
+  .todo-input {
+    height: 40px;
+    width: 185px;
+    padding-left: 7px;
+    font-size: 14px;
+  }
+
+  .todo-input::placeholder {
+    font-size: 12px;
+  }
+
+  .todo-btn {
+    height: 40px;
+    width: 75px;
+    font-size: 14px;
+  }
+
+  .Todo {
+    height: 40px;
+    width: 260px;
+    background-color: #a2d5c6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+    padding: 0 15px;
+  }
+
+  .font-awe {
+    gap: 10px;
+  }
 }
