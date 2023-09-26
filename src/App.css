@@ -111,6 +111,7 @@ form {
     padding-top: 30px;
   }
 
+
   .TodoWrapper>h1 {
     font-size: 1.8rem;
   }
@@ -120,6 +121,8 @@ form {
     width: 185px;
     padding-left: 7px;
     font-size: 14px;
+    -webkit-appearance: none;
+    border-radius: 0px;
   }
 
   .todo-input::placeholder {
